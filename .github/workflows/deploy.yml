@@ -1,0 +1,64 @@
+name: Actualizar datos y publicar MundoMotor
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    # Actualiza horarios, clasificaciones y noticias cada 2 horas
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Actualizar datos de F1, MotoGP, histórico y noticias
+        run: python3 scripts/update_data.py
+
+      - name: Guardar cambios de temporada o histórico si hubo novedades
+        run: |
+          if [ -n "$(git status --porcelain data/motorsport.json data/history.json data/moto_classes_history.json data/races)" ]; then
+            git config user.name "MundoMotor Bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/motorsport.json data/history.json data/moto_classes_history.json data/races
+            git commit -m "chore: actualizar datos de temporada [skip ci]" || true
+            git push || true
+          fi
+
+      - name: Preparar sitio estático
+        run: |
+          mkdir -p _site
+          cp index.html styles.css app.js manifest.webmanifest sw.js _site/
+          cp -r icons data _site/
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,642 @@
+{
+  "f1": [
+    {
+      "keys": ["ferrari"],
+      "name": "Scuderia Ferrari",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Maranello, Italia",
+      "type": "Escudería oficial",
+      "machine": "Motor Ferrari",
+      "engineHistory": ["Ferrari (1950–2026 · fabricante propio)"],
+      "active": true,
+      "founders": "Enzo Ferrari (fundada en 1929; en F1 desde 1950)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Frédéric Vasseur" },
+        { "role": "Presidente Ferrari", "name": "John Elkann" }
+      ],
+      "summary": "El único equipo presente en todas las temporadas de la historia de la Fórmula 1 desde 1950. Es la escudería más laureada e icónica del automovilismo mundial.",
+      "newsKeywords": ["ferrari", "maranello"]
+    },
+    {
+      "keys": ["mercedes"],
+      "name": "Mercedes-AMG Petronas F1 Team",
+      "flag": "🇩🇪",
+      "country": "Alemania / Reino Unido",
+      "hq": "Brackley, Reino Unido (motores en Brixworth)",
+      "type": "Escudería oficial",
+      "machine": "Motor Mercedes",
+      "engineHistory": ["Mercedes (1954–1955, 2010–2026 · fabricante propio)"],
+      "active": true,
+      "founders": "Regresó como equipo oficial en 2010 (heredera de las Flechas Plateadas de 1954–55)",
+      "leadership2026": [
+        { "role": "Jefe de equipo y CEO", "name": "Toto Wolff" },
+        { "role": "Director técnico", "name": "James Allison" }
+      ],
+      "summary": "Dominó la era híbrida con 8 títulos consecutivos de constructores (2014–2021). Combina ingeniería alemana con su fábrica de chasis en Inglaterra.",
+      "newsKeywords": ["mercedes", "wolff"]
+    },
+    {
+      "keys": ["red bull"],
+      "name": "Oracle Red Bull Racing",
+      "flag": "🇦🇹",
+      "country": "Austria / Reino Unido",
+      "hq": "Milton Keynes, Reino Unido",
+      "type": "Escudería oficial",
+      "machine": "Motor Red Bull Ford",
+      "engineHistory": ["Cosworth (2005)", "Ferrari (2006)", "Renault (2007–2015)", "TAG Heuer / Renault (2016–2018)", "Honda (2019–2021)", "Honda RBPT (2022–2025)", "Red Bull Ford (2026)"],
+      "active": true,
+      "founders": "Dietrich Mateschitz (debutó en 2005 tras comprar Jaguar)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Laurent Mekies" },
+        { "role": "Director técnico", "name": "Pierre Waché" }
+      ],
+      "summary": "Escudería austriaca afincada en Inglaterra que revolucionó la F1 moderna con dos grandes eras de dominio (Vettel y Verstappen) y que en 2026 estrena unidad de potencia propia junto a Ford.",
+      "newsKeywords": ["red bull"]
+    },
+    {
+      "keys": ["mclaren"],
+      "name": "McLaren Formula 1 Team",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Woking, Reino Unido",
+      "type": "Escudería histórica / oficial",
+      "machine": "Motor Mercedes",
+      "engineHistory": ["Ford / BRM (1966–1983)", "TAG Porsche (1983–1987)", "Honda (1988–1992)", "Ford (1993)", "Peugeot (1994)", "Mercedes (1995–2014)", "Honda (2015–2017)", "Renault (2018–2020)", "Mercedes (2021–2026)"],
+      "active": true,
+      "founders": "Bruce McLaren (fundada en 1963; en F1 desde 1966)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Andrea Stella" },
+        { "role": "CEO McLaren Racing", "name": "Zak Brown" }
+      ],
+      "summary": "Uno de los grandes gigantes históricos de la F1, hogar de leyendas como Senna, Prost, Häkkinen y Hamilton. Reconocible por su emblemático naranja papaya.",
+      "newsKeywords": ["mclaren"]
+    },
+    {
+      "keys": ["aston martin"],
+      "name": "Aston Martin Aramco F1 Team",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Silverstone, Reino Unido",
+      "type": "Escudería oficial",
+      "machine": "Motor Honda",
+      "engineHistory": ["Mercedes (2021–2025)", "Honda (2026)"],
+      "active": true,
+      "founders": "Lawrence Stroll (relanzó la marca en F1 en 2021 sobre la base de Jordan/Force India)",
+      "leadership2026": [
+        { "role": "Socio técnico y dirección deportiva", "name": "Adrian Newey" },
+        { "role": "Propietario ejecutivo", "name": "Lawrence Stroll" }
+      ],
+      "summary": "El ambicioso proyecto británico de verde clásico, con nueva fábrica y túnel de viento propio en Silverstone, alianza oficial con motores Honda en 2026 y el genio técnico Adrian Newey al frente.",
+      "newsKeywords": ["aston martin", "newey"]
+    },
+    {
+      "keys": ["williams"],
+      "name": "Williams Racing",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Grove, Reino Unido",
+      "type": "Escudería histórica",
+      "machine": "Motor Mercedes",
+      "engineHistory": ["Ford Cosworth (1977–1983)", "Honda (1983–1987)", "Judd (1988)", "Renault (1989–1997)", "Mecachrome / Supertec (1998–1999)", "BMW (2000–2005)", "Cosworth (2006)", "Toyota (2007–2009)", "Cosworth (2010–2011)", "Renault (2012–2013)", "Mercedes (2014–2026)"],
+      "active": true,
+      "founders": "Sir Frank Williams y Patrick Head (fundada en 1977)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "James Vowles" }
+      ],
+      "summary": "Tercera escudería con más títulos de Constructores de la historia (9). Tras años difíciles, vive una profunda reconstrucción técnica para volver a la zona alta.",
+      "newsKeywords": ["williams", "vowles"]
+    },
+    {
+      "keys": ["alpine"],
+      "name": "BWT Alpine F1 Team",
+      "flag": "🇫🇷",
+      "country": "Francia / Reino Unido",
+      "hq": "Enstone, Reino Unido",
+      "type": "Escudería oficial",
+      "machine": "Motor Mercedes",
+      "engineHistory": ["Renault (2021–2025)", "Mercedes (2026)"],
+      "active": true,
+      "founders": "División deportiva del Grupo Renault (antiguas Toleman, Benetton y Renault F1)",
+      "leadership2026": [
+        { "role": "Asesor ejecutivo", "name": "Flavio Briatore" },
+        { "role": "Director general", "name": "Steve Nielsen" }
+      ],
+      "summary": "La estructura francesa heredera de la histórica fábrica de Enstone (campeona con Schumacher y Alonso). En 2026 inicia etapa como cliente de motores Mercedes.",
+      "newsKeywords": ["alpine", "briatore"]
+    },
+    {
+      "keys": ["haas"],
+      "name": "Haas F1 Team",
+      "flag": "🇺🇸",
+      "country": "Estados Unidos",
+      "hq": "Kannapolis (EE. UU.) y Banbury (Reino Unido)",
+      "type": "Escudería independiente",
+      "machine": "Motor Ferrari",
+      "engineHistory": ["Ferrari (2016–2026)"],
+      "active": true,
+      "founders": "Gene Haas (debutó en 2016)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Ayao Komatsu" },
+        { "role": "Propietario", "name": "Gene Haas" }
+      ],
+      "summary": "Equipo estadounidense con un modelo eficiente y estrecha colaboración técnica con Ferrari y Toyota Gazoo Racing.",
+      "newsKeywords": ["haas", "komatsu"]
+    },
+    {
+      "keys": ["rb f1", "racing bulls", "alphatauri", "toro rosso"],
+      "name": "Racing Bulls (RB F1 Team)",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Faenza, Italia",
+      "type": "Escudería oficial (cantera Red Bull)",
+      "machine": "Motor Red Bull Ford",
+      "engineHistory": ["Cosworth (2006)", "Ferrari (2007–2013)", "Renault (2014–2015)", "Ferrari (2016)", "Renault (2017)", "Honda (2018–2021)", "Honda RBPT (2022–2025)", "Red Bull Ford (2026)"],
+      "active": true,
+      "founders": "Heredera de Minardi (comprada por Red Bull en 2006 como Toro Rosso)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Alan Permane" },
+        { "role": "CEO", "name": "Peter Bayer" }
+      ],
+      "summary": "Equipo hermano de Red Bull con sede en Italia. Ha servido de trampolín para campeones y estrellas como Vettel, Verstappen, Sainz o Gasly.",
+      "newsKeywords": ["racing bulls", "rb f1", "faenza"]
+    },
+    {
+      "keys": ["audi", "kick sauber", "stake", "sauber"],
+      "name": "Audi F1 Team",
+      "flag": "🇩🇪",
+      "country": "Alemania / Suiza",
+      "hq": "Hinwil (Suiza) y Neuburg (Alemania)",
+      "type": "Escudería oficial de fábrica",
+      "machine": "Motor Audi",
+      "engineHistory": ["Ilmor / Mercedes / Ford (Sauber 1993–1996)", "Petronas / Ferrari (1997–2005)", "BMW (2006–2009)", "Ferrari (2010–2025)", "Audi (2026 · fabricante propio)"],
+      "active": true,
+      "founders": "Proyecto oficial de Audi sobre la histórica estructura suiza Sauber (fundada por Peter Sauber)",
+      "leadership2026": [
+        { "role": "Director del proyecto F1", "name": "Mattia Binotto" }
+      ],
+      "summary": "Gran debut de Audi como fabricante integral de chasis y motor en 2026, tomando el relevo de la veterana escudería Sauber.",
+      "newsKeywords": ["audi", "binotto", "sauber"]
+    },
+    {
+      "keys": ["cadillac"],
+      "name": "Cadillac F1 Team",
+      "flag": "🇺🇸",
+      "country": "Estados Unidos",
+      "hq": "Fishers (EE. UU.) y Silverstone (Reino Unido)",
+      "type": "Escudería oficial (General Motors)",
+      "machine": "Motor Ferrari (hasta estrenar motor propio GM)",
+      "engineHistory": ["Ferrari (2026 · futuro motor propio General Motors)"],
+      "active": true,
+      "founders": "General Motors / TWG Motorsports (debutó en 2026 como 11.º equipo)",
+      "leadership2026": [
+        { "role": "Jefe de equipo", "name": "Marcin Budkowski" }
+      ],
+      "summary": "La nueva 11.ª escudería de la parrilla en 2026 respaldada por General Motors, con ambición de convertirse en fabricante integral estadounidense.",
+      "newsKeywords": ["cadillac"]
+    },
+    {
+      "keys": ["lotus"],
+      "name": "Team Lotus",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Hethel, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1958–1994 (y regreso 2010–2015)",
+      "engineHistory": ["Coventry Climax / BRM (1958–1966)", "Ford Cosworth (1967–1983)", "Renault (1983–1986)", "Honda (1987–1988)", "Judd / Lamborghini / Ford / Mugen-Honda (1989–1994)", "Renault / Mercedes (2012–2015)"],
+      "active": false,
+      "founders": "Colin Chapman (pionero de la aerodinámica y el efecto suelo)",
+      "summary": "Una de las escuderías más revolucionarias de la F1: introdujo el chasis monocasco, los alerones modernos y el efecto suelo, ganando 7 títulos de Constructores."
+    },
+    {
+      "keys": ["renault"],
+      "name": "Renault F1 Team",
+      "flag": "🇫🇷",
+      "country": "Francia",
+      "hq": "Viry-Châtillon (Francia) y Enstone (Reino Unido)",
+      "type": "Escudería histórica / fabricante",
+      "era": "1977–1985, 2002–2011 y 2016–2020",
+      "active": false,
+      "founders": "Pionera de los motores turbo en F1; bicampeona con Fernando Alonso (2005–2006)",
+      "summary": "Introdujo la era turbo en 1977 y conquistó dos dobletes históricos de Pilotos y Constructores con Fernando Alonso antes de transformarse en Alpine."
+    },
+    {
+      "keys": ["benetton"],
+      "name": "Benetton Formula",
+      "flag": "🇬🇧",
+      "country": "Reino Unido / Italia",
+      "hq": "Enstone, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1986–2001",
+      "engineHistory": ["BMW (1986)", "Ford (1987–1994)", "Renault (1995–1997)", "Playlife / Supertec (1998–2000)", "Renault (2001)"],
+      "active": false,
+      "founders": "Familia Benetton · Flavio Briatore · Ross Brawn · Rory Byrne",
+      "summary": "Escudería icónica de los 90 que llevó a Michael Schumacher a sus dos primeros títulos mundiales (1994 y 1995) y ganó Constructores en 1995."
+    },
+    {
+      "keys": ["brabham"],
+      "name": "Brabham",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Chessington / Milton Keynes, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1962–1992",
+      "engineHistory": ["Coventry Climax (1962–1965)", "Repco (1966–1968)", "Ford Cosworth (1969–1975)", "Alfa Romeo (1976–1979)", "Ford Cosworth (1979–1982)", "BMW (1982–1987)", "Judd / Yamaha (1989–1992)"],
+      "active": false,
+      "founders": "Jack Brabham y Ron Tauranac · posteriormente dirigida por Bernie Ecclestone y Gordon Murray",
+      "summary": "Ganó 4 títulos de pilotos (incluidos Jack Brabham con su propio coche y Nelson Piquet) y 2 de constructores."
+    },
+    {
+      "keys": ["tyrrell"],
+      "name": "Tyrrell Racing",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Ockham, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1970–1998",
+      "engineHistory": ["Ford Cosworth (1970–1985)", "Renault (1985–1986)", "Ford (1987–1990)", "Honda (1991)", "Ilmor (1992)", "Yamaha (1993–1996)", "Ford (1997–1998)"],
+      "active": false,
+      "founders": "Ken Tyrrell y el diseñador Derek Gardner",
+      "summary": "Famosa por los títulos con Jackie Stewart y por el mítico Tyrrell P34 de seis ruedas. Su estructura evolucionó luego en BAR, Honda, Brawn y Mercedes."
+    },
+    {
+      "keys": ["jordan"],
+      "name": "Jordan Grand Prix",
+      "flag": "🇮🇪",
+      "country": "Irlanda / Reino Unido",
+      "hq": "Silverstone, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1991–2005",
+      "engineHistory": ["Ford (1991)", "Yamaha (1992)", "Hart (1993–1994)", "Peugeot (1995–1997)", "Mugen-Honda (1998–2000)", "Honda (2001–2002)", "Ford (2003–2004)", "Toyota (2005)"],
+      "active": false,
+      "founders": "Eddie Jordan",
+      "summary": "Carismático equipo amarillo donde debutó Michael Schumacher y que peleó el título en 1999 con Frentzen. Es la raíz histórica del actual Aston Martin."
+    },
+    {
+      "keys": ["brawn"],
+      "name": "Brawn GP",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Brackley, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "2009",
+      "engineHistory": ["Mercedes (2009)"],
+      "active": false,
+      "founders": "Ross Brawn (rescató el proyecto de Honda F1)",
+      "summary": "El mayor cuento de hadas de la F1 moderna: compitió una única temporada (2009) y ganó ambos campeonatos con Jenson Button antes de convertirse en Mercedes."
+    },
+    {
+      "keys": ["alfa romeo"],
+      "name": "Alfa Romeo Racing",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Milán (histórica) / Hinwil (2019–2023)",
+      "type": "Escudería histórica",
+      "era": "1950–1951, 1979–1985 y 2019–2023",
+      "active": false,
+      "founders": "Campeona de los dos primeros mundiales de la historia (Farina 1950 y Fangio 1951)",
+      "summary": "Ganadora inaugural de la Fórmula 1 en 1950. En su última etapa moderna dio nombre a la estructura suiza de Sauber."
+    },
+    {
+      "keys": ["force india", "racing point"],
+      "name": "Force India / Racing Point",
+      "flag": "🇬🇧",
+      "country": "India / Reino Unido",
+      "hq": "Silverstone, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "2008–2020",
+      "engineHistory": ["Ferrari (2008)", "Mercedes (2009–2020)"],
+      "active": false,
+      "founders": "Vijay Mallya (luego adquirida por Lawrence Stroll en 2018)",
+      "summary": "Equipo de Silverstone célebre por rendir muy por encima de su presupuesto y por su llamativo color rosa; se convirtió en Aston Martin en 2021."
+    },
+    {
+      "keys": ["ligier", "prost"],
+      "name": "Ligier / Prost Grand Prix",
+      "flag": "🇫🇷",
+      "country": "Francia",
+      "hq": "Vichy / Magny-Cours, Francia",
+      "type": "Escudería histórica",
+      "era": "1976–2001",
+      "engineHistory": ["Matra (1976–1978, 1981–1982)", "Ford Cosworth (1979–1980, 1983)", "Renault (1984–1986, 1992–1994)", "Megatron / Judd / Lamborghini (1987–1991)", "Mugen-Honda (1995–1997)", "Peugeot (1998–2000)", "Acer / Ferrari (2001)"],
+      "active": false,
+      "founders": "Guy Ligier (adquirida después por Alain Prost en 1997)",
+      "summary": "Emblema azul del automovilismo francés en los años 70, 80 y 90, con 9 victorias en Grandes Premios (incluido Mónaco 1996)."
+    },
+    {
+      "keys": ["cooper"],
+      "name": "Cooper Car Company",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Surbiton, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1950–1969",
+      "active": false,
+      "founders": "Charles y John Cooper",
+      "summary": "Cambió la F1 para siempre al popularizar el motor trasero central, conquistando los títulos de 1959 y 1960 con Jack Brabham."
+    },
+    {
+      "keys": ["brm"],
+      "name": "BRM (British Racing Motors)",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Bourne, Reino Unido",
+      "type": "Escudería histórica",
+      "era": "1951–1977",
+      "active": false,
+      "founders": "Raymond Mays y Peter Berthon",
+      "summary": "Histórico equipo británico campeón de Pilotos y Constructores en 1962 con Graham Hill."
+    },
+    {
+      "keys": ["matra"],
+      "name": "Matra",
+      "flag": "🇫🇷",
+      "country": "Francia",
+      "hq": "Vélizy, Francia",
+      "type": "Escudería histórica",
+      "era": "1967–1972",
+      "active": false,
+      "founders": "Jean-Luc Lagardère",
+      "summary": "Fabricante aeroespacial francés campeón del mundo en 1969 junto a Ken Tyrrell y Jackie Stewart."
+    },
+    {
+      "keys": ["maserati"],
+      "name": "Maserati",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Módena, Italia",
+      "type": "Escudería histórica",
+      "era": "1950–1960",
+      "active": false,
+      "founders": "Hermanos Maserati",
+      "summary": "Gigante de los primeros años de la F1 con el legendario 250F con el que Juan Manuel Fangio ganó su quinto título en 1957."
+    }
+  ],
+  "motogp": [
+    {
+      "keys": ["ducati lenovo", "ducati"],
+      "name": "Ducati Lenovo Team",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Borgo Panigale (Bolonia), Italia",
+      "type": "Equipo oficial de fábrica",
+      "machine": "Ducati Desmosedici GP",
+      "active": true,
+      "founders": "Ducati Corse (debutó en MotoGP en 2003)",
+      "leadership2026": [
+        { "role": "Director general Ducati Corse", "name": "Luigi «Gigi» Dall'Igna" },
+        { "role": "Team Manager", "name": "Davide Tardozzi" },
+        { "role": "Director deportivo", "name": "Mauro Grassilli" }
+      ],
+      "summary": "La referencia técnica absoluta de la MotoGP moderna. Pionera en aerodinámica y dispositivos de altura, es el equipo oficial rojo de Bolonia.",
+      "newsKeywords": ["ducati", "dall'igna", "tardozzi"]
+    },
+    {
+      "keys": ["gresini"],
+      "name": "Gresini Racing MotoGP",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Faenza, Italia",
+      "type": "Equipo satélite (Ducati)",
+      "machine": "Ducati Desmosedici GP",
+      "engineHistory": ["Honda (1997–2014)", "Aprilia (2015–2021)", "Ducati (2022–2026)"],
+      "active": true,
+      "founders": "Fausto Gresini (fundado en 1997)",
+      "leadership2026": [
+        { "role": "Propietaria y Team Principal", "name": "Nadia Padovani" },
+        { "role": "Director deportivo", "name": "Michele Masini" }
+      ],
+      "summary": "Uno de los equipos independientes más queridos del paddock. Dirigido por Nadia Padovani tras el legado de Fausto Gresini, compite con motos Ducati y logra victorias con frecuencia.",
+      "newsKeywords": ["gresini"]
+    },
+    {
+      "keys": ["vr46"],
+      "name": "Pertamina Enduro VR46 Racing Team",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Tavullia, Italia",
+      "type": "Equipo satélite (Ducati)",
+      "machine": "Ducati Desmosedici GP",
+      "active": true,
+      "founders": "Valentino Rossi (nació de la VR46 Riders Academy; en MotoGP desde 2022)",
+      "leadership2026": [
+        { "role": "Propietario", "name": "Valentino Rossi" },
+        { "role": "Director de equipo", "name": "Alessio «Uccio» Salucci" },
+        { "role": "Team Manager", "name": "Pablo Nieto" }
+      ],
+      "summary": "El equipo fundado por el nueve veces campeón Valentino Rossi para formar y proyectar talentos italianos en MotoGP con maquinaria Ducati.",
+      "newsKeywords": ["vr46", "rossi"]
+    },
+    {
+      "keys": ["aprilia racing", "aprilia"],
+      "name": "Aprilia Racing",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Noale, Italia",
+      "type": "Equipo oficial de fábrica",
+      "machine": "Aprilia RS-GP",
+      "active": true,
+      "founders": "Marca histórica de Noale (Grupo Piaggio) con decenas de títulos en cilindradas pequeñas",
+      "leadership2026": [
+        { "role": "CEO Aprilia Racing", "name": "Massimo Rivola" },
+        { "role": "Team Manager", "name": "Paolo Bonora" },
+        { "role": "Director técnico", "name": "Fabiano Sterlacchini" }
+      ],
+      "summary": "La gran alternativa italiana a Ducati. La RS-GP destaca por su aerodinámica innovadora y velocidad en curva rápida.",
+      "newsKeywords": ["aprilia", "rivola"]
+    },
+    {
+      "keys": ["trackhouse"],
+      "name": "Trackhouse MotoGP Team",
+      "flag": "🇺🇸",
+      "country": "Estados Unidos",
+      "hq": "Concord (EE. UU.) y Noale (Italia)",
+      "type": "Equipo satélite (Aprilia)",
+      "machine": "Aprilia RS-GP",
+      "active": true,
+      "founders": "Justin Marks (expansión de su exitoso equipo de NASCAR a MotoGP en 2024)",
+      "leadership2026": [
+        { "role": "Propietario", "name": "Justin Marks" },
+        { "role": "Team Manager", "name": "Francesco Guidotti" }
+      ],
+      "summary": "Estructura estadounidense de estética muy llamativa que compite como equipo satélite estrechamente ligado a la fábrica de Aprilia.",
+      "newsKeywords": ["trackhouse"]
+    },
+    {
+      "keys": ["red bull ktm factory", "ktm"],
+      "name": "Red Bull KTM Factory Racing",
+      "flag": "🇦🇹",
+      "country": "Austria",
+      "hq": "Munderfing / Mattighofen, Austria",
+      "type": "Equipo oficial de fábrica",
+      "machine": "KTM RC16",
+      "active": true,
+      "founders": "Proyecto oficial de KTM y Red Bull en MotoGP (desde 2017)",
+      "leadership2026": [
+        { "role": "Director de Motorsport", "name": "Pit Beirer" },
+        { "role": "Team Manager", "name": "Aki Ajo" }
+      ],
+      "summary": "El equipo oficial austriaco de color naranja, célebre por su agresiva aceleración, salidas explosivas y su potente cantera desde Moto3 y Moto2.",
+      "newsKeywords": ["ktm", "beirer"]
+    },
+    {
+      "keys": ["red bull ktm tech3", "tech3", "gasgas"],
+      "name": "Red Bull KTM Tech3",
+      "flag": "🇫🇷",
+      "country": "Francia",
+      "hq": "Bormes-les-Mimosas, Francia",
+      "type": "Equipo satélite (KTM)",
+      "machine": "KTM RC16",
+      "engineHistory": ["Yamaha (2001–2018)", "KTM (2019–2022)", "GASGAS / KTM (2023–2024)", "KTM (2025–2026)"],
+      "active": true,
+      "founders": "Hervé Poncharal (fundado en 1990)",
+      "leadership2026": [
+        { "role": "CEO", "name": "Guenther Steiner" },
+        { "role": "Team Principal", "name": "Hervé Poncharal" },
+        { "role": "Team Manager", "name": "Nicolas Goyon" }
+      ],
+      "summary": "Veterana estructura francesa que compite con motos oficiales de KTM y cuenta en 2026 con Guenther Steiner (exjefe de Haas F1) como CEO.",
+      "newsKeywords": ["tech3", "steiner"]
+    },
+    {
+      "keys": ["pramac"],
+      "name": "Prima Pramac Yamaha MotoGP",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Casole d'Elsa (Siena), Italia",
+      "type": "Equipo satélite oficial (Yamaha)",
+      "machine": "Yamaha YZR-M1",
+      "engineHistory": ["Honda (2002–2004)", "Ducati (2005–2024)", "Yamaha (2025–2026)"],
+      "active": true,
+      "founders": "Paolo Campinoti (en MotoGP desde 2002)",
+      "leadership2026": [
+        { "role": "Propietario y Team Principal", "name": "Paolo Campinoti" },
+        { "role": "Team Manager", "name": "Gino Borsoi" }
+      ],
+      "summary": "Equipo campeón del mundo en 2024 con Jorge Martín; ahora es el socio satélite principal de Yamaha con motos de especificación oficial.",
+      "newsKeywords": ["pramac", "borsoi"]
+    },
+    {
+      "keys": ["monster energy yamaha", "yamaha"],
+      "name": "Monster Energy Yamaha MotoGP",
+      "flag": "🇯🇵",
+      "country": "Japón / Italia",
+      "hq": "Iwata (Japón) y Gerno di Lesmo (Italia)",
+      "type": "Equipo oficial de fábrica",
+      "machine": "Yamaha YZR-M1",
+      "active": true,
+      "founders": "Yamaha Motor Racing (múltiple campeona con Rossi, Lorenzo y Quartararo)",
+      "leadership2026": [
+        { "role": "Director general Yamaha Racing", "name": "Paolo Pavesio" },
+        { "role": "Team Director", "name": "Massimo «Maio» Meregalli" }
+      ],
+      "summary": "Marca histórica japonesa de paso por curva exquisito, en plena fase de reconstrucción técnica para volver a lo más alto junto a Fabio Quartararo.",
+      "newsKeywords": ["yamaha", "meregalli"]
+    },
+    {
+      "keys": ["honda lcr", "castrol honda lcr", "pro honda lcr", "lcr"],
+      "name": "Honda LCR (Castrol / Pro Honda)",
+      "flag": "🇲🇨",
+      "country": "Mónaco / Italia",
+      "hq": "Mónaco",
+      "type": "Equipo satélite (Honda)",
+      "machine": "Honda RC213V",
+      "active": true,
+      "founders": "Lucio Cecchinello (fundado en 1996; en MotoGP desde 2006)",
+      "leadership2026": [
+        { "role": "Fundador, CEO y Team Principal", "name": "Lucio Cecchinello" }
+      ],
+      "summary": "Respetado equipo independiente dirigido por el expiloto Lucio Cecchinello, estrecho colaborador en el desarrollo de la Honda RC213V.",
+      "newsKeywords": ["lcr", "cecchinello"]
+    },
+    {
+      "keys": ["honda hrc", "repsol", "honda"],
+      "name": "Honda HRC Castrol",
+      "flag": "🇯🇵",
+      "country": "Japón",
+      "hq": "Asaka (Japón) y Castellar del Vallès (España)",
+      "type": "Equipo oficial de fábrica",
+      "machine": "Honda RC213V",
+      "active": true,
+      "founders": "Honda Racing Corporation (la marca más ganadora de la categoría reina)",
+      "leadership2026": [
+        { "role": "Team Manager", "name": "Alberto Puig" },
+        { "role": "Director técnico HRC", "name": "Romano Albesiano" }
+      ],
+      "summary": "El gigante histórico de 500cc y MotoGP (Doohan, Crivillé, Rossi, Stoner, Marc Márquez). Trabaja intensamente con concesiones técnicas para recuperar su dominio.",
+      "newsKeywords": ["honda", "hrc", "puig"]
+    },
+    {
+      "keys": ["suzuki"],
+      "name": "Suzuki (500cc / MotoGP)",
+      "flag": "🇯🇵",
+      "country": "Japón",
+      "hq": "Hamamatsu, Japón",
+      "type": "Marca histórica",
+      "era": "1974–2011 y 2015–2022",
+      "active": false,
+      "founders": "Campeona con Barry Sheene, Marco Lucchinelli, Franco Uncini, Kevin Schwantz, Kenny Roberts Jr. y Joan Mir (2020)",
+      "summary": "Icónica marca azul y plata admirada por la agilidad de sus motos. Ganó el Mundial de 2020 con Joan Mir antes de retirarse de MotoGP al final de 2022."
+    },
+    {
+      "keys": ["mv agusta"],
+      "name": "MV Agusta",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Varese, Italia",
+      "type": "Marca histórica",
+      "era": "1950–1976",
+      "active": false,
+      "founders": "Conde Domenico Agusta · Leyendas como Giacomo Agostini, Mike Hailwood, John Surtees y Phil Read",
+      "summary": "La primera gran dinastía del motociclismo: ganó 17 títulos consecutivos de 500cc entre 1958 y 1974."
+    },
+    {
+      "keys": ["kawasaki"],
+      "name": "Kawasaki Racing",
+      "flag": "🇯🇵",
+      "country": "Japón",
+      "hq": "Akashi, Japón",
+      "type": "Marca histórica",
+      "era": "2002–2009 en MotoGP",
+      "active": false,
+      "founders": "La inconfundible Ninja verde lima de MotoGP",
+      "summary": "Compitió en los primeros años de la era MotoGP de 4 tiempos antes de centrarse en el Mundial de Superbikes."
+    },
+    {
+      "keys": ["cagiva"],
+      "name": "Cagiva",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Varese, Italia",
+      "type": "Marca histórica",
+      "era": "1980–1994 (500cc)",
+      "active": false,
+      "founders": "Hermanos Castiglioni · victorias con Eddie Lawson y John Kocinski",
+      "summary": "Famosa marca roja italiana que plantó cara a las fábricas japonesas en los 90 con una de las 500cc más bonitas jamás construidas."
+    },
+    {
+      "keys": ["gilera"],
+      "name": "Gilera",
+      "flag": "🇮🇹",
+      "country": "Italia",
+      "hq": "Arcore, Italia",
+      "type": "Marca histórica",
+      "era": "1949–1957 (500cc)",
+      "active": false,
+      "founders": "Giuseppe Gilera · campeona con Umberto Masetti, Geoff Duke y Libero Liberati",
+      "summary": "Dominadora de los años 50 en la categoría reina con 6 títulos mundiales de 500cc."
+    },
+    {
+      "keys": ["norton"],
+      "name": "Norton",
+      "flag": "🇬🇧",
+      "country": "Reino Unido",
+      "hq": "Birmingham, Reino Unido",
+      "type": "Marca histórica",
+      "era": "1949–1960s (500cc)",
+      "active": false,
+      "founders": "James Lansdowne Norton · campeona con Geoff Duke en 1951",
+      "summary": "Leyenda británica de los inicios del Mundial gracias a su célebre chasis Featherbed y victorias en la Isla de Man."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:32:21Z",
+  "updatedAt": "2026-11-22T21:32:03Z",
   "f1": {
     "series": "f1",
     "label": "Fórmula 1",
@@ -23540,7 +23540,7 @@
         "dateStart": "2026-11-27",
         "dateEnd": "2026-11-29",
         "raceStart": "2026-11-22T14:00:00Z",
-        "status": "UPCOMING",
+        "status": "FINISHED",
         "sessions": [
           {
             "key": "FP1",
